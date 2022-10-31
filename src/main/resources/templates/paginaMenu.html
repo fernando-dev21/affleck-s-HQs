@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Affleck´s HQs</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" th:href="@{/css/paginaMenu.css}"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+    	<img src="../css/logo.png" alt="logo do site"> 
+      <!-- <a class="navbar-brand" href="#">Sistema Integrado de Gestão</a> -->
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      
+      <li> <a th:href="@{/grupox/cliente}"> Clientes </a> </li>
+      <li> <a th:href="@{/sig/pedidos}"> Pedido </a> </li>                 
+      <li><a th:href="@{/login?logout}">Logout</a></li>
+    </ul>
+  </div>
+</nav>
+	
+	<div class="container">                                       
+            <section class="banner">                
+                    <div class="wrapper">
+                        <div class="main-banner">                          
+                            <img src="../img/banner.png" alt="">                                                                                                                                         
+                        </div>                        
+                    </div>                    
+            </section>
+            
+            <div class="main-product">   
+                <div class="wrapper">                          
+                    <div class="main-products">
+                        <div class="product">
+                            <img src="../images/hq.png" alt="imagem da revista">
+                            <p>Superman Nº x</p>
+                            <p>Preço: R$ xx,xx</p>
+                            <p>Quantidade: x Unid.</p>
+                            <p>Estoque minimo: x</p>
+                        </div>
+    
+                        <div class="product">
+                            <img src="../images/hq.png" alt="imagem da revista">
+                            <p>Superman Nº x</p>
+                            <p>Preço: R$ xx,xx</p>
+                            <p>Quantidade: x Unid.</p>
+                            <p>Estoque minimo: x</p>
+                        </div>
+
+                        <div class="product">
+                            <img src="../images/hq.png" alt="imagem da revista">
+                            <p>Superman Nº x</p>
+                            <p>Preço: R$ xx,xx</p>
+                            <p>Quantidade: x Unid.</p>
+                            <p>Estoque minimo: x</p>
+                        </div>
+    
+                        <div class="product">
+                            <img src="../images/hq.png" alt="imagem da revista">
+                            <p>Superman Nº x</p>
+                            <p>Preço: R$ xx,xx</p>
+                            <p>Quantidade: x Unid.</p>
+                            <p>Estoque minimo: x</p>
+                        </div>
+                    </div>                    
+                </div>             
+            </div>
+	
+<div class="container">
+  <!--
+  <h3>Fatec-Centro Paula Souza </h3>
+  <p> ADS.</p>
+  -->
+</div>
+<footer>
+            <hr color="#000">
+            <div class="wrapper">       
+                <div class="footer-image">
+                	<img src="../css/logo.png" alt="logo do site">                                          
+                </div>
+                <div class="footer-description">
+                    <a href="#">Quem somos</a>
+                    <a href="#">Endereço</a>
+                    <a href="#">(99)99999-9999</a>                    
+                </div>                
+            </div> 
+</footer>
+</body>
+</html>

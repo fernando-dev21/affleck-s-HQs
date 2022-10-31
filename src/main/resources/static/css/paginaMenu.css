@@ -1,0 +1,89 @@
+body { 
+ background: #38B6FF; /* fallback for old browsers */ 
+ background: -webkit-linear-gradient(right, #38B6FF, #38B6FF); 
+ background: -moz-linear-gradient(right, #38B6FF, #38B6FF); 
+ background: -o-linear-gradient(right, #38B6FF, #38B6FF); 
+ background: linear-gradient(to left, #38B6FF, #38B6FF); 
+ font-family: "Roboto", sans-serif; 
+ -webkit-font-smoothing: antialiased; 
+ -moz-osx-font-smoothing: grayscale; 
+  margin: 0;
+  padding: 0;
+}
+/*header {
+    width: 100%;
+    font-family: 'Bebas Neue', cursive;
+}
+
+header .wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.header-links {
+    width: 100%;        
+}
+
+.header-links ul {
+    display: flex;   
+    justify-content: space-between;
+    list-style: none;    
+}
+
+.header-links ul li a {
+    color: #000;
+    display: flex;   
+    text-decoration: none;
+    transition: 0.5s;    
+}
+
+.header-links ul li a:hover {
+    color: yellow;
+    text-decoration-line: underline;       
+} */
+.main-product {
+    width: 100%;
+    /*background-color: red;*/
+}
+
+.main-products {
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product {
+    background-color: #fff;
+    font-size: 25px;
+} 
+ 
+
+.container {
+	background-color: #38B6FF;
+}
+
+footer .wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .wrapper img {
+    background-color: red;
+    height: 200px;
+}
+
+.footer-description a{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Bebas Neue', cursive;
+    color: #000;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.footer-description a:hover {
+    color: yellow;
+    text-decoration-line: underline;       
+}
