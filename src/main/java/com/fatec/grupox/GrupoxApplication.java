@@ -65,7 +65,8 @@ public class GrupoxApplication {
 		Produto produto1 = new Produto(1L, "parafuso", 10, 30); // descricao, custo e quantidade no estoque
 		Produto produto2 = new Produto(2L, "tijolo", 15, 60);
 		Produto produto3 = new Produto(3L, "bucha", 5, 50);
-		produtoRepository.saveAll(Arrays.asList(produto1, produto2, produto3));
+		Produto produto4 = new Produto(4L, "revista em quadrinho", 25, 3);
+		produtoRepository.saveAll(Arrays.asList(produto1, produto2, produto3, produto4));
 		// *******************************************************************************************
 		// Cadastrar Pedido1 - entrada de dados de pedido - o cliente deve estar
 		// previamente cadastrado
