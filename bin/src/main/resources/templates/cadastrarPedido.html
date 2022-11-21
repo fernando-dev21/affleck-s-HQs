@@ -34,7 +34,6 @@
 				<div class="col-md-8">
 					<form action="#" th:action="@{/sig/pedidos}" th:object="${umPedido}" method="post">
 						<div class="row">
-
 							<div class="form-group col-md-4">
 								<label for="cpf" class="col-form-label">CPF</label> 
 								<input type="text" th:field="*{cpf}" class="form-control" id="cpf" placeholder="cpf"> 
@@ -47,7 +46,10 @@
 							    <input type="text" th:field="*{produtoId}" class="form-control" id="produtoId" placeholder="Código Produto"> 
 							     <span th:if="${#fields.hasErrors('produtoId')}" th:errors="*{produtoId}" class="text-danger"> </span>
 							</div>
-							</div>
+							</div>		
+						
+						
+											
 						<div class="row">	
 							<div class="form-group col-md-8">
 								<label for="quantidade" class="col-form-label">Quantidade</label> 

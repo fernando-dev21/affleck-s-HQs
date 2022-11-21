@@ -4,6 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<link rel="stylesheet" type="text/css" th:href="@{/css/cadastraCliente.css}"/>
 	<title>Cadastrar cliente</title>
 	<script type="text/javascript">
 		function consulta() {
@@ -92,7 +93,7 @@
 									<option th:each="p : ${lista}" th:value="${p}" th:text="${p}" /option>
 								</select>
 							</div>
-						</div>
+						</div>																
 						<div class="form-group col-md-8">
 							<input type="submit" class="btn btn-primary" value="Cadastrar cliente">
 							<input type="button" class="btn btn-primary" value="Consultar cliente"
@@ -103,9 +104,9 @@
 			</div>
 			<h6 th:text="${message}" class="text-danger"></h6>
 		</div>
-		<footer th:replace="fragments/footer :: rodape">
+		<!--<footer th:replace="fragments/footer :: rodape">
 			<div>footer</div>
-		</footer>
+		</footer>-->
 </body>
 
 </html>

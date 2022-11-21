@@ -7,15 +7,16 @@
 </head>
 
 <body>
-	<div th:if="${param.error}">Invalid username and password.</div>
-	<div th:if="${param.logout}">You have been logged out.</div>
+	<div th:if="${param.error}">Usuário ou senha inválido.</div>
+	<div th:if="${param.logout}">Você saiu do sistema.</div>
 	<form th:action="@{/login}" method="post">
+	<img src="../css/logo.png" alt="logo do site"> 
 		<div class="login-page">
 			<div class="form">
 
 				<form>
-					<input type="text" name="username" placeholder="username" /> <input type="password" name="password"
-						placeholder="password" />
+					<input type="text" name="username" placeholder="usuario" /> <input type="password" name="password"
+						placeholder="senha"/>
 					<button>login</button>
 					<p class="message">
 						Não cadastrado? <a href="#">Crie uma conta</a>
