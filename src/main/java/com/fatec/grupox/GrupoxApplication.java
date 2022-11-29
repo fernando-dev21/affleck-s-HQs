@@ -49,14 +49,14 @@ public class GrupoxApplication {
 		// ******************************************************************************************
 		// Cadastrar tres clientes na base - a cliente Claudia não comprou nada
 		// ******************************************************************************************
-		Cliente umCliente = new Cliente("Andrade", "25/05/1960", "M", "99504993052", "04280130", "1234");
+		Cliente umCliente = new Cliente("Luiz", "12/10/1975", "M", "99504993052", "04280130", "1234");
 		umCliente.setProfissao("Advogado");
 		mantemCliente.save(umCliente);
-		umCliente = new Cliente("Silva", "18/03/1964", "M", "43011831084", "08545160", "1234");
+		umCliente = new Cliente("Antonio", "28/05/1986", "M", "43011831084", "08545160", "1234");
 		umCliente.setProfissao("Técnico");
 		mantemCliente.save(umCliente);
 
-		umCliente = new Cliente("Claudia", "11/05/1974", "F", "85765535380", "08545160", "1234");
+		umCliente = new Cliente("Rosangela", "22/01/1970", "F", "85765535380", "08545160", "1234");
 		umCliente.setProfissao("Técnico");
 		mantemCliente.save(umCliente);
 		// ******************************************************************************************

@@ -81,6 +81,7 @@ form button {
 .container .info span .fa { 
  color: #EF3B3A; 
 } 
+
  body { 
  background: #38B6FF; /* fallback for old browsers */ 
  background: -webkit-linear-gradient(right, #38B6FF, #38B6FF); 

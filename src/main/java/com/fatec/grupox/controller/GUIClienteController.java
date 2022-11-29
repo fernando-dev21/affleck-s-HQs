@@ -34,7 +34,7 @@ public class GUIClienteController {
 	@GetMapping("/cliente")
 	public ModelAndView retornaFormDeCadastroDe(Cliente cliente) {
 		ModelAndView mv = new ModelAndView("cadastrarCliente");
-		List<String> lista = Arrays.asList("Técnico", "Advogado", "Analista");
+		List<String> lista = Arrays.asList("Técnico", "Advogado", "Analista", "Outro");
 		mv.addObject("lista", lista);
 		mv.addObject("cliente", cliente);
 		return mv;
@@ -43,7 +43,7 @@ public class GUIClienteController {
 	@GetMapping("/clientes/{cpf}") 
 	public ModelAndView retornaFormParaEditarCliente(@PathVariable("cpf") String cpf) {
 		ModelAndView mv = new ModelAndView("atualizarCliente");
-		List<String> lista = Arrays.asList("Técnico", "Advogado", "Analista");
+		List<String> lista = Arrays.asList("Técnico", "Advogado", "Analista", "Outro");
 		mv.addObject("lista", lista);
 		Optional<Cliente> cliente = servico.consultaPorCpf(cpf);
 		if (cliente.isPresent()) {
